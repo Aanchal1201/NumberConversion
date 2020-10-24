@@ -60,7 +60,7 @@
     width:100%;
 }
 
-.digit input[type="number"]:focus{
+.digit input[type="number"]:focus,.digit input[type="text"]:focus{
     border:1px solid black;
     border-radius: 5px;
     outline: none;
