@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    border: 2px solid rgb(61, 61, 128);
+    width: 60%;
+    margin: 50px auto;
+    padding-bottom: 10px;
+}
+.container h2
+{
+    background-color: rgb(61, 61, 128);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* border-radius: 2px; */
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.container p
+{
+    margin: 2px;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.number
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.digit{
+    width: 80%;
+    margin: 2px 15px;
+    padding: 10px;
+    margin: auto;
+}
+.digit label{
+    font-size: 1.3rem;
+    display: block;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+.digit input[type="number"],.digit input[type="text"]{
+    font-size:1.1rem ;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width:100%;
+}
+
+.digit input[type="number"]:focus{
+    border:1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    width: 80%;
+    margin: auto;
+}
+.btn button
+{
+    margin: 20px 0px;
+    padding: 8px;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: rgb(61, 61, 128);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn button:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    font-weight: bold;
+}
+.btn button:focus{
+    outline: none;
+}
+@media only screen and (max-width:800px)
+{
+    .container{
+        width: 90%;
+    }
+}
